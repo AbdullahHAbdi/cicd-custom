@@ -56,7 +56,8 @@ try {
     core.setOutput('time', new Date().toTimeString());
 } catch (error) {
     core.setFailed(error.message);
-}
+}// rebuild
+
 module.exports = __webpack_exports__;
 /******/ })()
 ;
